@@ -19,7 +19,7 @@ const listen = (): void => {
   database.init()
   server = spdy.createServer(settings.ssl, app)
   server.listen(settings.port, settings.host)
-  show.debug(`[SERVER] Listening on https://localhost:${settings.port}`)
+  show.debug(`[SERVER] Listening on https://${settings.host}:${settings.port}`)
   routes.init(app)
   socket.listen(server)
   stats.memory()

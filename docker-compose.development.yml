@@ -2,6 +2,7 @@ version: '3.7'
 services:
   backend:
     container_name: backend
+    image: web-app-template-backend:latest
     build:
       context: ./backend
     ports:
@@ -10,8 +11,11 @@ services:
       NODE_ENV: development
     volumes:
       - ./backend:/backend
-      - /frontend/node_modules
+      - /backend/node_modules
+    networks:
+      - web-app-network
   frontend:
+    image: web-app-template-frontend:latest
     container_name: frontend
     build:
       context: ./frontend
@@ -20,3 +24,7 @@ services:
     volumes:
       - ./frontend:/frontend
       - /frontend/node_modules
+    networks:
+      - web-app-network
+networks:
+  web-app-network:
