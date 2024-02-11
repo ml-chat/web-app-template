@@ -1,0 +1,9 @@
+- common:
+- core:
+  - config:
+    - components:
+  - server:
+- features:
+- file_path: index.ts
+  description: 'The entry point of the application'
+

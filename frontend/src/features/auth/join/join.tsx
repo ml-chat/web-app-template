@@ -33,7 +33,7 @@ const Join = () => {
   const onSubmit: SubmitHandler<Inputs> = async (data) => {
     try {
       setLoading(true)
-      const response = await axios.put(`${apiUrl}/auth/local/join`, data)
+      const response = await axios.put(`${apiUrl}/auth/local/join`, data, { withCredentials: true })
       toast.success('Joined successfully!')
       toast.info('Check your emails!')
       navigate(`/auth/activation/${response.data.result.id}`)

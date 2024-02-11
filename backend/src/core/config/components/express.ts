@@ -40,13 +40,14 @@ const init = (): Express => {
     // API documentation files
     app.use('/public', express.static(`${settings.folder.public}`))
   }
+  app.use(cors(corsOptions))
   app.use(cookieParser(settings.cookie.secret))
   app.use(
     bodyParser.json({
       limit: '50mb',
     })
   )
-  app.use(cors(corsOptions))
+  
   app.use(helmet())
   app.use(
     contentSecurityPolicy({
