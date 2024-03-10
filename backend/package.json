@@ -7,7 +7,7 @@
   "contact": "tamas.szoke.dev@gmail.com",
   "license": "MIT",
   "scripts": {
-    "test": "TEST=true ts-mocha -p './tsconfig.json' 'src/*/*.test.ts' 'src/*/*/*.test.ts' 'src/*/*/*/*.test.ts'",
+    "test": "TEST=true ts-mocha -p './tsconfig.json' 'src/*/*.test.ts' 'src/*/*/*.test.ts' 'src/*/*/*/*.test.ts' --reporter json > test_results.json",
     "test:coverage": "nyc yarn test",
     "start": "nodemon --config nodemon.json",
     "build": "webpack --config webpack.config.js",

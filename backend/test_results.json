@@ -1,0 +1,1332 @@
+{
+  "stats": {
+    "suites": 45,
+    "tests": 73,
+    "passes": 73,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-02-25T01:30:48.336Z",
+    "end": "2024-02-25T01:30:49.430Z",
+    "duration": 1094
+  },
+  "tests": [
+    {
+      "title": "should get common object",
+      "fullTitle": "Common #index should get common object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 3,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get mail object",
+      "fullTitle": "Common #mail should get mail object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get mail.send function",
+      "fullTitle": "Common #mail should get mail.send function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get helper object",
+      "fullTitle": "Common #helper should get helper object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get helper.isEmpty function",
+      "fullTitle": "Common #helper should get helper.isEmpty function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "isEmpty function should return true if empty",
+      "fullTitle": "Common #helper isEmpty function should return true if empty",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "isEmpty function should return false if non-empty",
+      "fullTitle": "Common #helper isEmpty function should return false if non-empty",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get randomNumber function",
+      "fullTitle": "Common #helper should get randomNumber function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "randomNumber function should return a number between 10 and 100",
+      "fullTitle": "Common #helper randomNumber function should return a number between 10 and 100",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 2,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get config object",
+      "fullTitle": "Config #index should get config object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get settings object",
+      "fullTitle": "Config #settings should get settings object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should have default properties",
+      "fullTitle": "Config #settings should have default properties",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 5,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get express object",
+      "fullTitle": "Config #express should get express object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get express.init function",
+      "fullTitle": "Config #express should get express.init function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get database object",
+      "fullTitle": "Config #database should get database object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get database.init function",
+      "fullTitle": "Config #database should get database.init function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "init function should return true",
+      "fullTitle": "Config #database init function should return true",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 144,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should get database.close function",
+      "fullTitle": "Config #database should get database.close function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "close function should return true",
+      "fullTitle": "Config #database close function should return true",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 17,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get nodemailer object",
+      "fullTitle": "Config #nodemailer should get nodemailer object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get socket object",
+      "fullTitle": "Config #socket should get socket object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get socket.listen function",
+      "fullTitle": "Config #socket should get socket.listen function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get socket.close function",
+      "fullTitle": "Config #socket should get socket.close function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get show object",
+      "fullTitle": "Config #show should get show object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get stats object",
+      "fullTitle": "Config #stats should get stats object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get stats.memory function",
+      "fullTitle": "Config #stats should get stats.memory function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get swagger object",
+      "fullTitle": "Config #swagger should get swagger object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get swagger.specs object",
+      "fullTitle": "Config #swagger should get swagger.specs object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get server object",
+      "fullTitle": "Server #index should get server object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/server/server.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get server.listen function",
+      "fullTitle": "Server #listen should get server.listen function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/server/server.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from /",
+      "fullTitle": "Server #listen should get standard response from /",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/server/server.test.ts",
+      "duration": 107,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should get server.close function",
+      "fullTitle": "Server #close should get server.close function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/server/server.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from docs",
+      "fullTitle": "Docs #routes should get standard response from docs",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/docs/docs.test.ts",
+      "duration": 94,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should get home object",
+      "fullTitle": "Home #index should get home object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/home/home.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get home.main function",
+      "fullTitle": "Home #main should get home.main function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/home/home.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from /",
+      "fullTitle": "Home #main should get standard response from /",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/home/home.test.ts",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get socket object",
+      "fullTitle": "Socket #index should get socket object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/socket/socket.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get socket.init function",
+      "fullTitle": "Socket #init should get socket.init function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/socket/socket.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get user model",
+      "fullTitle": "User #model should get user model",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/user/user.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get user object",
+      "fullTitle": "User #index should get user object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/user/user.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get user.check function",
+      "fullTitle": "User #check should get user.check function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/user/user.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from user/profile/check",
+      "fullTitle": "User #check should get standard response from user/profile/check",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/user/user.test.ts",
+      "duration": 46,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get user.remove function",
+      "fullTitle": "User #remove should get user.remove function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/user/user.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from user/profile/remove",
+      "fullTitle": "User #remove should get standard response from user/profile/remove",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/user/user.test.ts",
+      "duration": 37,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get auth object",
+      "fullTitle": "Auth #index should get auth object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get auth.check function",
+      "fullTitle": "Auth #check should get auth.check function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from auth/local/check",
+      "fullTitle": "Auth #check should get standard response from auth/local/check",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 48,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get auth.join function",
+      "fullTitle": "Auth #join should get auth.join function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from auth/local/join",
+      "fullTitle": "Auth #join should get standard response from auth/local/join",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 70,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get auth.activate function",
+      "fullTitle": "Auth #activate should get auth.activate function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from auth/local/activate",
+      "fullTitle": "Auth #activate should get standard response from auth/local/activate",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 40,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get auth.login function",
+      "fullTitle": "Auth #login should get auth.login function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from auth/local/login",
+      "fullTitle": "Auth #login should get standard response from auth/local/login",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 39,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get auth.logout function",
+      "fullTitle": "Auth #logout should get auth.logout function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from auth/local/logout",
+      "fullTitle": "Auth #logout should get standard response from auth/local/logout",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 37,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get auth.recover function",
+      "fullTitle": "Auth #recover should get auth.recover function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from auth/local/recover",
+      "fullTitle": "Auth #recover should get standard response from auth/local/recover",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 39,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get auth.reset function",
+      "fullTitle": "Auth #reset should get auth.reset function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from auth/local/reset",
+      "fullTitle": "Auth #reset should get standard response from auth/local/reset",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 38,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get jwt object",
+      "fullTitle": "Jwt #index should get jwt object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get token object",
+      "fullTitle": "Jwt #token should get token object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get token.check function",
+      "fullTitle": "Jwt #token should get token.check function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get token.generate function",
+      "fullTitle": "Jwt #token should get token.generate function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get token.verify function",
+      "fullTitle": "Jwt #token should get token.verify function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get token.decode function",
+      "fullTitle": "Jwt #token should get token.decode function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get refresh object",
+      "fullTitle": "Jwt #refresh should get refresh object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get refresh.generate function",
+      "fullTitle": "Jwt #refresh should get refresh.generate function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get refresh.save function",
+      "fullTitle": "Jwt #refresh should get refresh.save function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get refresh.verify function",
+      "fullTitle": "Jwt #refresh should get refresh.verify function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get refresh.remove function",
+      "fullTitle": "Jwt #refresh should get refresh.remove function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get expiration object",
+      "fullTitle": "Jwt #expiration should get expiration object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get expiration.generate function",
+      "fullTitle": "Jwt #expiration should get expiration.generate function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get expiration.check function",
+      "fullTitle": "Jwt #expiration should get expiration.check function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should get common object",
+      "fullTitle": "Common #index should get common object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 3,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get mail object",
+      "fullTitle": "Common #mail should get mail object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get mail.send function",
+      "fullTitle": "Common #mail should get mail.send function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get helper object",
+      "fullTitle": "Common #helper should get helper object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get helper.isEmpty function",
+      "fullTitle": "Common #helper should get helper.isEmpty function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "isEmpty function should return true if empty",
+      "fullTitle": "Common #helper isEmpty function should return true if empty",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "isEmpty function should return false if non-empty",
+      "fullTitle": "Common #helper isEmpty function should return false if non-empty",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get randomNumber function",
+      "fullTitle": "Common #helper should get randomNumber function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "randomNumber function should return a number between 10 and 100",
+      "fullTitle": "Common #helper randomNumber function should return a number between 10 and 100",
+      "file": "/home/krtin/projects/web-app-template/backend/src/common/common.test.ts",
+      "duration": 2,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get config object",
+      "fullTitle": "Config #index should get config object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get settings object",
+      "fullTitle": "Config #settings should get settings object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should have default properties",
+      "fullTitle": "Config #settings should have default properties",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 5,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get express object",
+      "fullTitle": "Config #express should get express object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get express.init function",
+      "fullTitle": "Config #express should get express.init function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get database object",
+      "fullTitle": "Config #database should get database object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get database.init function",
+      "fullTitle": "Config #database should get database.init function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "init function should return true",
+      "fullTitle": "Config #database init function should return true",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 144,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should get database.close function",
+      "fullTitle": "Config #database should get database.close function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "close function should return true",
+      "fullTitle": "Config #database close function should return true",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 17,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get nodemailer object",
+      "fullTitle": "Config #nodemailer should get nodemailer object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get socket object",
+      "fullTitle": "Config #socket should get socket object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get socket.listen function",
+      "fullTitle": "Config #socket should get socket.listen function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get socket.close function",
+      "fullTitle": "Config #socket should get socket.close function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get show object",
+      "fullTitle": "Config #show should get show object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get stats object",
+      "fullTitle": "Config #stats should get stats object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get stats.memory function",
+      "fullTitle": "Config #stats should get stats.memory function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get swagger object",
+      "fullTitle": "Config #swagger should get swagger object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get swagger.specs object",
+      "fullTitle": "Config #swagger should get swagger.specs object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/config/config.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get server object",
+      "fullTitle": "Server #index should get server object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/server/server.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get server.listen function",
+      "fullTitle": "Server #listen should get server.listen function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/server/server.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from /",
+      "fullTitle": "Server #listen should get standard response from /",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/server/server.test.ts",
+      "duration": 107,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should get server.close function",
+      "fullTitle": "Server #close should get server.close function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/core/server/server.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from docs",
+      "fullTitle": "Docs #routes should get standard response from docs",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/docs/docs.test.ts",
+      "duration": 94,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should get home object",
+      "fullTitle": "Home #index should get home object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/home/home.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get home.main function",
+      "fullTitle": "Home #main should get home.main function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/home/home.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from /",
+      "fullTitle": "Home #main should get standard response from /",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/home/home.test.ts",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get socket object",
+      "fullTitle": "Socket #index should get socket object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/socket/socket.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get socket.init function",
+      "fullTitle": "Socket #init should get socket.init function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/socket/socket.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get user model",
+      "fullTitle": "User #model should get user model",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/user/user.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get user object",
+      "fullTitle": "User #index should get user object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/user/user.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get user.check function",
+      "fullTitle": "User #check should get user.check function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/user/user.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from user/profile/check",
+      "fullTitle": "User #check should get standard response from user/profile/check",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/user/user.test.ts",
+      "duration": 46,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get user.remove function",
+      "fullTitle": "User #remove should get user.remove function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/user/user.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from user/profile/remove",
+      "fullTitle": "User #remove should get standard response from user/profile/remove",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/user/user.test.ts",
+      "duration": 37,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get auth object",
+      "fullTitle": "Auth #index should get auth object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get auth.check function",
+      "fullTitle": "Auth #check should get auth.check function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from auth/local/check",
+      "fullTitle": "Auth #check should get standard response from auth/local/check",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 48,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get auth.join function",
+      "fullTitle": "Auth #join should get auth.join function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from auth/local/join",
+      "fullTitle": "Auth #join should get standard response from auth/local/join",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 70,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get auth.activate function",
+      "fullTitle": "Auth #activate should get auth.activate function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from auth/local/activate",
+      "fullTitle": "Auth #activate should get standard response from auth/local/activate",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 40,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get auth.login function",
+      "fullTitle": "Auth #login should get auth.login function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from auth/local/login",
+      "fullTitle": "Auth #login should get standard response from auth/local/login",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 39,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get auth.logout function",
+      "fullTitle": "Auth #logout should get auth.logout function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from auth/local/logout",
+      "fullTitle": "Auth #logout should get standard response from auth/local/logout",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 37,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get auth.recover function",
+      "fullTitle": "Auth #recover should get auth.recover function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from auth/local/recover",
+      "fullTitle": "Auth #recover should get standard response from auth/local/recover",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 39,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get auth.reset function",
+      "fullTitle": "Auth #reset should get auth.reset function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get standard response from auth/local/reset",
+      "fullTitle": "Auth #reset should get standard response from auth/local/reset",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/auth/auth.test.ts",
+      "duration": 38,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "should get jwt object",
+      "fullTitle": "Jwt #index should get jwt object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get token object",
+      "fullTitle": "Jwt #token should get token object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get token.check function",
+      "fullTitle": "Jwt #token should get token.check function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get token.generate function",
+      "fullTitle": "Jwt #token should get token.generate function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get token.verify function",
+      "fullTitle": "Jwt #token should get token.verify function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get token.decode function",
+      "fullTitle": "Jwt #token should get token.decode function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get refresh object",
+      "fullTitle": "Jwt #refresh should get refresh object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get refresh.generate function",
+      "fullTitle": "Jwt #refresh should get refresh.generate function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get refresh.save function",
+      "fullTitle": "Jwt #refresh should get refresh.save function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get refresh.verify function",
+      "fullTitle": "Jwt #refresh should get refresh.verify function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get refresh.remove function",
+      "fullTitle": "Jwt #refresh should get refresh.remove function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get expiration object",
+      "fullTitle": "Jwt #expiration should get expiration object",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get expiration.generate function",
+      "fullTitle": "Jwt #expiration should get expiration.generate function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should get expiration.check function",
+      "fullTitle": "Jwt #expiration should get expiration.check function",
+      "file": "/home/krtin/projects/web-app-template/backend/src/features/auth/jwt/jwt.test.ts",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}

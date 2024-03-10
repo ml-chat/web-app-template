@@ -73,6 +73,9 @@ const check = async (
       updated: 1,
     }
   )
+  if (!user) {
+    throw new ClientError(1004, 'invalid email or password')
+  }
   const salt = user.salt
   const hash = createHash(password, salt)
   if (user.password === hash) {

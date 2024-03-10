@@ -6613,6 +6613,11 @@ jest-snapshot@^27.5.1:
     pretty-format "^27.5.1"
     semver "^7.3.2"
 
+jest-teamcity@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/jest-teamcity/-/jest-teamcity-1.11.0.tgz#f3135674f69b36f3eca0ccae7a4907fdd96c66c4"
+  integrity sha512-QCcvE6N9a4/JeM0v0Nty/fFMYSXxX+Xuxa5cyugEYdTqLo2lI+YLX6wq6L/iAPFEgUb0cRVl1PIm+4cZDn/SHA==
+
 jest-util@^27.5.1:
   version "27.5.1"
   resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-27.5.1.tgz#3ba9771e8e31a0b85da48fe0b0891fb86c01c2f9"
